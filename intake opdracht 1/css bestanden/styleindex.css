@@ -1,0 +1,258 @@
+
+/* Dit is het CSS gedeelte. Dit geeft de webite kleur, verandert het de font, grootte van het text
+waar het geplaatst moet worden ect. */
+
+/* Generale Stijlen */
+    body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #e20400, #000e3d);
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #FF6F91;
+}
+
+img {
+  transition: transform 0.5s;
+}
+
+img:hover {
+  transform: rotate(1deg) scale(1.001);
+}
+
+/* Sectie Stijlen */
+section {
+  padding: 40px 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;  
+}
+
+p {
+  line-height: 1.5;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Header */
+head {
+  background: #000e3d;
+  padding: 20px;
+  color: #fff;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  color: #fff;
+  margin-left: 20px;
+}  
+
+nav {
+  display: flex;
+  margin-left: 30%;
+  position: fixed;
+  background: rgba(056, 069, 036, 0.7);
+  margin-top: 0%;
+}
+
+nav a {
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+li {
+  margin: 10px 0;
+  color: #fff
+}
+
+/* Hero Sectie ("Welkom! Ik ben Vlad.") */
+
+.intro {
+  background: rgba(255,255,255,0.2);
+  text-align: left;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff
+}
+
+.intro h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.intro img {
+  width: 25%;
+  height: 25%;
+  border-radius: 10px;
+  align-content: right;
+}
+
+/* Over Mij Sectie */
+
+.overmij {
+  padding: 80px 20px;
+}
+
+.overmij h2 {
+  font-size: 190%; 
+  margin-bottom: 1%;
+  color: #fff;
+}
+
+.overmij p {
+  line-height: 1.5;
+  margin-top: -1%;
+  color: #fff;
+}
+
+.basketballyap h2 {
+  font-size: 190%; 
+  margin-left: 2%;
+  color: #fff;
+}
+
+.basketballyap h3 {
+  font-size: 150%; 
+  margin-left: 2%;
+  color: #fff;
+}
+
+.basketballyap p {
+  margin-left: 2%;
+  margin-top: -1%;
+  margin-bottom: 5%;
+}
+
+.basketballyap2 {
+  background: rgba(255,255,255,0.2);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.basketballyap2 img {
+  width: 25%;
+  height: 25%;
+  border-radius: 10px;
+  align-content: right;
+}
+
+.basketballyap2 h3 {
+  font-size: 150%; 
+  margin-left: 2%;
+  color: #fff;
+}
+
+.basketballyap2 p {
+  margin-left: 2%;
+  margin-top: -1%;
+}
+/* Contact Sectie */
+
+#contact {
+  padding: 80px 20px;
+  text-align: center;
+  background: rgba(255,255,255,0.1);
+  font-size: 36%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+
+#contact a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#contact a:hover {
+  color: #FF6F91;
+  text-decoration: underline;
+}
+
+.project1 {
+  background: rgba(255,255,255,0.2);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.project1 img {
+  width: 75%;
+  height: 75%;
+  border-radius: 10px;
+  align-content: right; 
+}
+
+.project1 h3 {
+  font-size: 24px;
+  margin: 20px 0;
+  color: #fff;
+}
+
+.project2 {
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.project2 img {
+  width: 35%;
+  height: 35%;
+  border-radius: 10px;
+  align-content: right;
+}
+
+.project2 h3 {
+  font-size: 24px;
+  margin: 20 px 0;
+  color: #fff;
+}
+
+.mijnwerk h2 {
+  font-size: 190%;
+  margin-left: 2%;
+  color: #fff;
+}
+
+/* Media gedeelte */
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+}
+
+::-webkit-scrollbar  {
+    width: 20px;
+    background: #000e3d;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-track  {
+    box-shadow: inset 0 0 3px;
+    border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb  {
+    background: #e20400;
+    border-radius: 10px;
+}
